@@ -1,0 +1,3 @@
+C:/Users/Lucho/CLionProjects/PruebaHilos/cmake-build-debug/CMakeFiles/PruebaHilosConcurrencia.dir
+C:/Users/Lucho/CLionProjects/PruebaHilos/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/Lucho/CLionProjects/PruebaHilos/cmake-build-debug/CMakeFiles/rebuild_cache.dir
