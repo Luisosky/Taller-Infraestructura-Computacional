@@ -7,16 +7,12 @@
 
 class Cliente {
 public:
-    Cliente(const std::string& nombre, const std::vector<int>& productos)
-            : nombre(nombre), productos(productos) {}
 
-    const std::string& getNombre() const {
-        return nombre;
-    }
+    Cliente(const std::string& nombre, const std::vector<int>& productos);
 
-    const std::vector<int>& getProductos() const {
-        return productos;
-    }
+
+    const std::string& getNombre() const;
+    const std::vector<int>& getProductos() const;
 
 private:
     std::string nombre;

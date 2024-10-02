@@ -1,23 +1,15 @@
 //
 // Created by Lucho on 2/10/2024.
 //
-#include <iostream>
-#include <vector>
+#include "Cliente.h"
 
-class Cliente {
-public:
-    Cliente(const std::string& nombre, const std::vector<int>& productos)
-            : nombre(nombre), productos(productos) {}
+Cliente::Cliente(const std::string& nombre, const std::vector<int>& productos)
+        : nombre(nombre), productos(productos) {}
 
-    const std::string& getNombre() const {
-        return nombre;
-    }
+const std::string& Cliente::getNombre() const {
+    return nombre;
+}
 
-    const std::vector<int>& getProductos() const {
-        return productos;
-    }
-
-private:
-    std::string nombre;
-    std::vector<int> productos;
-};
+const std::vector<int>& Cliente::getProductos() const {
+    return productos;
+}
